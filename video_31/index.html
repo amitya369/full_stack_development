@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: brown;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+                color: black;
+            }
+            .boxes{
+                 flex-direction: column;
+            }
+            
+        }
+        .boxes {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: steelblue;
+            padding: 3px;
+            margin: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        hey i am grey alien hunter and i am here to help you with your alien hunting needs.
+        <p>Contact me at: <a href="mailto:greyalienhunter@example.com">greyalienhunter@example.com</a></p>
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
